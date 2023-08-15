@@ -11,6 +11,7 @@ Produtor quanto no Consumidor.
 Para rodar este sample é necessário:
 
 1 - Ter um banco ou conteiner do PostgreSQL com um banco chamado 'db_mensageria1'
+
 2 - Neste banco ter a tabela 'tb_person', então executar o comando a seguir:
     create table tb_person (id  bigserial not null, age int, name varchar(255), primary key (id));
     
